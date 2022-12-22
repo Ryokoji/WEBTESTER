@@ -379,7 +379,7 @@ body{
 		.intro-1 h3{
 			font-size:1.8em;
 		}
-		/*2nd-intro page*/
+		/*2-intro page*/
 	}
 	@media (orientation:portrait) and (min-width:400px) {    
 		.icon07, .logo07{
