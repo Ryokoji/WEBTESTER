@@ -145,11 +145,6 @@ body{
 }
 
 /*EXTRA CODE PAGE*/
-.unit-2::-webkit-scrollbar{
-	display:none;	
-	scrollbar-width:none;
-	scroll-behavior: smooth;
-}
 .unit-2{
 	background-color:#000000;
     height:100%;
@@ -409,11 +404,6 @@ body{
 		width:100px;
 		height:100px;
 		text-align:center;
-	}
-	.info .cubed{
-		width:100px;
-		height:100px;
-		text-align:center;
 		margin-top:1em;
 	}
 	.cube .eye{
@@ -530,6 +520,37 @@ body{
 			animation-delay:1s;
 			font-size:0.25em;
 			top:25em;
+		}
+		.ryo07{
+			width:135px;
+			height:135px;
+		}
+		.named, h6{
+			font-size:0.8em;
+		}
+		/*content*/
+		.intro-2 .visionary{
+			padding:15px;
+		}
+		.article{
+			width:100vw;
+			max-height:100%;
+			background-color:rgba(0, 0, 0, 0.30);
+			padding:25px;
+		}
+		.title-1{
+			height:4em;
+		}
+		.title-1 h4{
+			font-size:0.8em;
+		}
+		.info{
+			font-size:0.4em;
+			padding:15px 30px;
+		}
+		.cube .eye{
+			width:40px;
+			height:40px;
 		}
 	}
 
