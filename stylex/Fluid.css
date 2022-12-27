@@ -213,7 +213,7 @@ body{
 		align-items: center;
 		position:absolute;
 		cursor:default;
-		background-color:rgba(0, 0, 0, 0.7);
+		background-color:rgba(0, 0, 0, 0.5);
 		animation: faded 1s ease 1.7s forwards;
 		opacity:0%;
 	}
@@ -245,7 +245,7 @@ body{
 	.named, h6{
 		color:#ffffff;
 		font-family: 'orbitron', Verdana, sans-serif;
-		font-size:1.2em;
+		font-size:1.3em;
 		animation: glow 0.7s ease 1.7s forwards;
 		opacity:0;
 	}
@@ -331,23 +331,23 @@ body{
 		flex-direction:column;
 		justify-content:center;
 		align-items: center;
-		background-color:rgba(0, 0, 0, 0.7);
+		background-color:rgba(0, 0, 0, 0.5);
 		animation: faded 1s ease 1.7s forwards;
 		opacity:0%;
 		color:#ffffff;
 		font-family:'aldrich', verdana;
 		font-size:1.3em;
 		text-align: center;
-		padding:15px 35px;
 	}
+	/*VISIONARY*/
 	.article{
 		width:75vw;
-		max-height:100%;
-		background-color:rgba(0, 0, 0, 0.30);
-		padding:50px;
+		min-height:100%;
+		background-color:rgba(0, 0, 0, 0.25);
+		padding:25px;
 	}
 	.title-1{
-		height:12em;
+		height:11em;
 		width:100%;
 		background-image:url('https://i.ibb.co/ZT4VCMb/rainblur.jpg');
 		background-position:center;
@@ -357,15 +357,19 @@ body{
 		justify-content:center;
 		text-align: center;
 		box-shadow:inset 0px 0px 25px #000000;
-		transition:1s ease;
+		transition:1s ease;/*javascript*/
 	}
 	.title-1 h4{
 		transition:1.5s ease;
 		font-size: 2em;
+		width:100%;
+		height:100%;
+		background-color:rgba(0, 0, 0, 0.55);
 		font-family:'orbitron', verdana, sans-serif;
 		color:#ffffff;
 		letter-spacing:0.5em;
-		text-shadow:0px 0px 10px #000000;
+		text-shadow:0px 0px 3.5px #ffffff;
+		line-height:5.5em;
 	}
 	.info{
 		width:100%;
@@ -395,19 +399,309 @@ body{
 		transition:1s ease;
 	}
 	.info .cube{
-		width:100px;
-		height:100px;
+		width:80px;
+		height:80px;
 		text-align:center;
 		margin-top:1em;
 	}
 	.cube .eye{
-		width:85px;
-		height:85px;
+		width:inherit;
+		height:inherit;
 		filter: grayscale(1) brightness(1000%) drop-shadow(0px 0px 3.5px #fafafa);
 		transition:1s ease-in;
 	}
+	/*ARTISTRY*/
+	.title-2{
+		height:11em;
+		width:100%;
+		background-image:url('https://i.ibb.co/gwH4N10/Gate.jpg');
+		background-position:center;
+		background-size:cover;
+		display:flex;
+		align-items:center;
+		justify-content:center;
+		text-align: center;
+		box-shadow:inset 0px 0px 25px #000000;
+		transition:1s ease;
+	}
+	.title-2 h4{
+		transition:1.5s ease;
+		font-size: 2em;
+		width:100%;
+		height:100%;
+		background-color:rgba(0, 0, 0, 0.55);
+		font-family:'orbitron', verdana, sans-serif;
+		color:#ffffff;
+		letter-spacing:0.5em;
+		text-shadow:0px 0px 3.5px #ffffff;
+		line-height:5.5em;
+	}
+	.info hr{
+		width:37%;
+		box-shadow:0px 0px 5px #ffffff;
+		background-color:#ffffff;
+	}
+	.grid{
+		width:100%;
+		display:flex;
+		flex-direction:row;
+		align-items:left;
+		justify-content:center;
+		flex-wrap:wrap;
+		margin-top:1em;
+		margin-bottom:1.2em;
+	}
+	.picbtn{
+		outline:0;
+    	border:0;
+    	width: 100%;
+    	height:100%;
+		opacity:0;
+		background-image: url('https://i.ibb.co/xCGrYTD/future.png');
+   		background-position: center;
+    	background-size:cover;
+    	background-repeat: no-repeat;
+		background-color:rgba(0, 0, 0, 0.50);
+		transition:250ms;
+	}
+	.picbtn:hover{
+		transition:500ms;
+		cursor: pointer;
+		opacity:1;
+	}
+	.pic1,
+	.pic2,
+	.pic3,
+	.pic4,
+	.pic5,
+	.pic6,
+	.pic7,
+	.pic8,
+	.pic9,
+	.pic10,
+	.pic11,
+	.pic12{
+		width:200px;
+		height:200px;
+		margin:15px;
+		transition:250ms;
+	}
+	.pic1:hover,
+	.pic2:hover,
+	.pic3:hover,
+	.pic4:hover,
+	.pic5:hover,
+	.pic6:hover,
+	.pic7:hover,
+	.pic8:hover,
+	.pic9:hover,
+	.pic10:hover,
+	.pic11:hover,
+	.pic12:hover{
+		transition:500ms;
+		transform:scale(0.95);
+	}
 	
-	/*MEDIA QUEREY CSS TEST*/
+	.grid .pic1{
+		background-image:url('https://i.ibb.co/0QysCzx/thirdeye.jpg');
+		background-position:center;
+		background-size: contain;
+		background-repeat:no-repeat;
+	}
+	.grid .pic2{
+		background-image:url('https://i.ibb.co/27y4D1Q/crypto.jpg');
+		background-position:center;
+		background-size: contain;
+		background-repeat:no-repeat;
+	}
+	.grid .pic3{
+		background-image:url('https://i.ibb.co/PD4CGNc/nullsector.jpg');
+		background-position:center;
+		background-size: contain;
+		background-repeat:no-repeat;
+	}
+	/*2nd row*/
+	.grid .pic4{
+		background-image:url('https://i.ibb.co/QQJwf0w/yoriichi.jpg');
+		background-position:center;
+		background-size: contain;
+		background-repeat:no-repeat;
+	}
+	.grid .pic5{
+		background-image:url('https://i.ibb.co/PC1WFMT/samurai.jpg');
+		background-position:center;
+		background-size: contain;
+		background-repeat:no-repeat;
+	}
+	.grid .pic6{
+		background-image:url('https://i.ibb.co/99BJmHq/kokushibo.jpg');
+		background-position:center;
+		background-size: contain;
+		background-repeat:no-repeat;
+	}
+	/*3rd row*/
+	.grid .pic7{
+		background-image:url('https://i.ibb.co/92ZcV8T/frozen.jpg');
+		background-position:center;
+		background-size: contain;
+		background-repeat:no-repeat;
+	}
+	.grid .pic8{
+		background-image:url('https://i.ibb.co/P4X4jT0/lunar.jpg');
+		background-position:center;
+		background-size: contain;
+		background-repeat:no-repeat;
+	}
+	.grid .pic9{
+		background-image:url('https://i.ibb.co/fDHLrCV/traitor.jpg');
+		background-position:center;
+		background-size: contain;
+		background-repeat:no-repeat;
+	}
+	.grid .pic10{
+		background-image:url('https://i.ibb.co/c36mdVZ/shadow.jpg');
+		background-position:center;
+		background-size: contain;
+		background-repeat:no-repeat;
+	}
+	.grid .pic11{
+		background-image:url('https://i.ibb.co/m9jKnjJ/sightsamurai.jpg');
+		background-position:center;
+		background-size: contain;
+		background-repeat:no-repeat;
+	}
+	.grid .pic12{
+		background-image:url('https://i.ibb.co/gWcqp6W/odogaron.jpg');
+		background-position:left;
+		background-size: cover;
+		background-repeat:no-repeat;
+	}
+	.cubed .gem{
+		width:85px;
+		height:85px;
+		filter:invert(100%) brightness(100%) drop-shadow(0px 0px 3.5px #fafafa);
+	}
+	/*MODAL*/
+	#overlay{
+		position: fixed;
+		z-index:95;
+		top:0;
+		left:0;
+		right:0;
+		bottom:0;
+		background-color: rgba(0, 0, 0, 0.8);
+		width:100%;
+		height:100%;
+		display:none;
+		justify-content:center!important;
+		align-items: center!important;
+	}
+	#overlay.active{
+		display:flex!important;
+		justify-content:center!important;
+		align-items: center!important;
+	}
+	 .modal{
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		max-width:400px;
+		max-height:400px;
+		z-index:99;
+		width:100%;
+		height:100%;
+		margin:0;
+		text-align: center;
+		font-family:'aldrich',verdana,arial;
+		display: flex;
+		flex-direction: column;
+		align-items:center;
+		display:none;
+	}
+	.modal.active{
+		display:flex;
+		opacity: 0;
+		animation: modal 250ms ease-in 100ms forwards;
+		line-height:1.2em;
+	}
+	
+	@keyframes modal {
+		from {opacity: 0%;}
+	
+		to {opacity: 100%;}
+	}
+	
+	.modal .modalImg {
+		width:100%;
+		height:100%;
+	}
+	
+	.modal .modalh2 {
+		font-size: 1em;
+		color: #fafafa;
+		font-family:'orbitron',verdana, sans-serif;
+		margin-top:1.2em;
+	}
+	/*OUTRO*/
+.outro{
+	width:100%;
+	height:105vh;
+	background-color: #000000;
+	box-shadow: 0px 5px 100px 25px #000000;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	transition: 1s ease;
+}
+.effect{
+	transition:700ms ease-in;
+	text-align:center;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	flex-direction:column;
+}
+/*.outro:hover{
+	opacity:1;
+	transition:opacity ease 800ms; 
+}*/
+.end{
+	text-transform: uppercase;
+	font-size:1.2em;
+	font-family:'aldrich', verdana, sans-serif;
+	color:#ffffff;
+	line-height:1.3em;
+}
+.sig{
+	text-transform: uppercase;
+	font-size:1.1em;
+	font-family:'aldrich', verdana, sans-serif;
+	color:#ffffff;
+	text-shadow:0px 0px 2px #fafafa;
+	transition:1s ease;
+}
+.social{
+	transition:2s ease;
+	margin:0.5em 0 0.5em;	
+}
+.social .net-2{
+	margin:0 1em;
+}
+.social .net-1, .net-2, .net-3{
+	width:40px;
+	height:40px;
+	filter:invert(100%);
+}
+
+.net-1:hover, .net-2:hover, .net-3:hover{
+	transform:scale(1);
+	filter:drop-shadow(0px 0px 5px #000000) invert(100%);
+	transition:1s ease;
+}
+
+	
+/*MEDIA QUEREY CSS TEST*/
 	@media (orientation:portrait) and (min-width:315px) {
 		.unit-1::-webkit-scrollbar{
 			overflow-x:hidden;
