@@ -296,16 +296,19 @@ body{
  }
  #controls {
 	width: 100%;
-	height: 35px;
+    height:80%;
+    top:5em;
+    right:0;
+    bottom:0;
+    left:0;
 	z-index:99;
-	position:relative;
-    top:3.3em;
+	position:absolute;
  }
  #controls label {
 	transition: opacity 0.2s ease-out;
 	display: none;
 	width: 100px;
-    height: 90vh;
+    height: 100%;
 	opacity: 0.2;
     padding:0;
     transition:width 250ms ease-in;
@@ -313,6 +316,7 @@ body{
  #slide1:checked ~ #controls label:nth-child(2),
  #slide2:checked ~ #controls label:nth-child(3),
  #slide3:checked ~ #controls label:nth-child(1){
+    background-color:red;
     float:right;
 	margin:0;
 	display:block;
@@ -320,6 +324,7 @@ body{
  #slide1:checked ~ #controls label:nth-last-child(1),
  #slide2:checked ~ #controls label:nth-last-child(3),
  #slide3:checked ~ #controls label:nth-last-child(2){
+    background-color: rebeccapurple;
     float:left;
 	margin:0;
 	display: block;
@@ -1145,9 +1150,6 @@ transform:translateY(15.5em);
 width: 25px;
 height: 3px;
 }
-#controls label{
-height:80vh;
-}
 }
 @media (orientation:landscape) and (min-width:550px){
     .rotx3m{
@@ -1155,6 +1157,10 @@ height:80vh;
     }
     .EOAm{
     left:0px;
+    }
+    #controls{
+        top:4em;
+        height:70%;
     }
 }
 @Media (orientation:landscape) and (min-width:600px){
@@ -1177,9 +1183,7 @@ height:80vh;
     width: 25px;
     height: 3px;
  }
- #controls label{
-    height:80vh;
- }
+
 }
 @media (orientation:landscape) and (min-width:715px){
     #bullets {
