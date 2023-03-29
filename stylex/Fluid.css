@@ -850,7 +850,7 @@ h5{
     }
     #bullets {
         transform:translateY(41.5em);
-        -webkit-transform:translateY(20.5em);
+	-Webkit-transform:translateY(20.5em);
         -o-transform:translateY(41.5em);
      }
      #bullets label {
