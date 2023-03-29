@@ -800,7 +800,7 @@ h5{
     font-size:0.75em;
 }
 #bullets {
-    transform:translateY(33.5em);
+    transform:translateY(32.5em);
  }
  #bullets label {
     width: 12px;
@@ -849,16 +849,17 @@ h5{
         height:4em;
     }
     #bullets {
-        transform:translateY(10em);
-        -o-transform:translateY(40em);
-        -ms-transform:translateY(50em);  
-        -Moz-transform:translateY(20em);
-        -Webkit-transform:translateY(38em);   
+        transform:translateY(41.5em);   
     }
      #bullets label {
         width: 14px;
         height: 14px;
      }
+}
+@media (orientation: portrait) and (min-width:412px){
+    #bullets{
+        transform:translateY(10em);
+    }
 }
 @media (orientation:portrait) and (min-width:600px){
     /*nav*/
