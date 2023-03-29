@@ -850,6 +850,7 @@ h5{
     }
     #bullets {
         transform:translateY(41.5em);
+        -webkit-transform:translateY(41.5em);
      }
      #bullets label {
         width: 14px;
@@ -1184,7 +1185,7 @@ height: 3px;
 }
 @media (orientation:landscape) and (min-width:715px){
     #bullets {
-        transform:translateY(22.5em);
+        transform:translateY(35%);
      }
 }
 @media (orientation:landscape) and (min-width:900px){
