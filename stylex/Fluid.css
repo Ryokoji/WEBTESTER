@@ -825,8 +825,8 @@ h5{
 		font-size:0.90em;
 	}
 	#bullets {
-		transform:translateY(35em);
-	 }
+		transform:translateY(37.5em);
+	 }/*iphone 11 pro */
 	 #bullets label {
 		width: 13px;
 		height: 13px;
@@ -849,7 +849,7 @@ h5{
         height:4em;
     }
     #bullets {
-        transform:translateY(41.5em);   
+        transform:translateY(40.5em);   
     }
      #bullets label {
         width: 14px;
@@ -860,7 +860,7 @@ h5{
     #bullets{
         transform:translateY(42.5em);
     }
-}
+}/* note 10+ & iphone 14 pro fits except iphone 6+ */
 @media (orientation:portrait) and (min-width:600px){
     /*nav*/
     .mob-nav{
