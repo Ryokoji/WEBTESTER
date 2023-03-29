@@ -849,17 +849,16 @@ h5{
         height:4em;
     }
     #bullets {
-        transform:translateY(40em);
+        transform:translateY(42em);
         -o-transform:translateY(40em);
         -ms-transform:translateY(40em);  
-        -moz-transform:translateY(45.5em);
+        -Moz-transform:translateY(45em);
         -Webkit-transform:translateY(38em);   
     }
      #bullets label {
         width: 14px;
         height: 14px;
      }
-     
 }
 @media (orientation:portrait) and (min-width:600px){
     /*nav*/
