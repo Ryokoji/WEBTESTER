@@ -418,7 +418,7 @@ body{
     height: 100%;
     text-align: center;
     margin: 0;
-    background-color: #0d0d0d;
+    background-color: #af4545;
 }
 .page-3 {
     position:absolute;
@@ -448,6 +448,7 @@ body{
     margin:15px 5px;
     border:2px solid #ffffff;
     box-shadow:0px 0px 1px #ffffff;
+    background-color: aqua;
 }
 .doc-1:hover{
     box-shadow:0px 0px 15px #ffffff;
@@ -1325,6 +1326,7 @@ height: 3px;
     }
     .doc-1, .doc-2, .doc-3{
         max-width:30em;
+        max-height:45em;
     }
     .edu-doc, .exp-doc, .pro-doc{
     justify-content: space-around;
