@@ -825,7 +825,7 @@ h5{
 		font-size:0.90em;
 	}
 	#bullets {
-		transform:translateY(36.5em);
+		transform:translateY(38.5em);
 	 }
 	 #bullets label {
 		width: 13px;
@@ -849,7 +849,7 @@ h5{
         height:4em;
     }
     #bullets {
-        transform:translateY(38.5em);
+        transform:translateY(41.5em);
      }
      #bullets label {
         width: 14px;
