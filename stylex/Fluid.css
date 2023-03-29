@@ -800,7 +800,7 @@ h5{
     font-size:0.75em;
 }
 #bullets {
-    transform:translateY(32.5em);
+    transform:translateY(33.5em);
  }
  #bullets label {
     width: 12px;
@@ -825,7 +825,7 @@ h5{
 		font-size:0.90em;
 	}
 	#bullets {
-		transform:translateY(34.5em);
+		transform:translateY(35em);
 	 }
 	 #bullets label {
 		width: 13px;
@@ -858,7 +858,7 @@ h5{
 }
 @media (orientation: portrait) and (min-width:412px){
     #bullets{
-        transform:translateY(10em);
+        transform:translateY(42.5em);
     }
 }
 @media (orientation:portrait) and (min-width:600px){
