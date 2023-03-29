@@ -849,14 +849,25 @@ h5{
         height:4em;
     }
     #bullets {
-        transform:translateY(42em);
-        -Webkit-transform:translateY(35em);
+        transform:translateY(35em);
         }
      #bullets label {
         width: 14px;
         height: 14px;
      }
      
+}
+@media (orientation: portrait) and (min-width:412px){
+/*412 mobile-apps*/
+#bullets{
+    	transform:translateY(41.5em);
+	 }
+}
+@media (orientation: portrait) and (min-width:412px){
+/*iphone 6plus*/
+#bullets{
+    transform:translateY(38em);
+}
 }
 @media (orientation:portrait) and (min-width:600px){
     /*nav*/
