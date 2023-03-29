@@ -489,7 +489,8 @@ body{
     flex-direction:column;
     justify-content:space-evenly;
     align-items: center;
-    background-color:rgba(0, 0, 0, 0.8);
+    /*background-color:rgba(0, 0, 0, 0.8);*/
+    background-color:green;
 }
 .e1, .e2, .e3, .x1, .x2, .x3, .d1, .d2, .d3{
     text-align:center;
