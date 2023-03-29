@@ -800,7 +800,7 @@ h5{
     font-size:0.75em;
 }
 #bullets {
-    transform:translateY(31em);
+    transform:translateY(33.5em);
  }
  #bullets label {
     width: 12px;
@@ -825,7 +825,7 @@ h5{
 		font-size:0.90em;
 	}
 	#bullets {
-		transform:translateY(38.5em);
+		transform:translateY(34.5em);
 	 }
 	 #bullets label {
 		width: 13px;
@@ -849,10 +849,9 @@ h5{
         height:4em;
     }
     #bullets {
-        transform:translateY(41.5em);
-	-Webkit-transform:translateY(20.5em);
-        -o-transform:translateY(41.5em);
-     }
+        transform:translateY(42em);
+        -Webkit-transform:translateY(35em);
+        }
      #bullets label {
         width: 14px;
         height: 14px;
@@ -1187,7 +1186,7 @@ height: 3px;
 @media (orientation:landscape) and (min-width:715px){
     #bullets {
         transform:translateY(35%);
-        -webkit-transform:translateY(35%);
+        -Webkit-transform:translateY(35%);
      }
 }
 @media (orientation:landscape) and (min-width:900px){
