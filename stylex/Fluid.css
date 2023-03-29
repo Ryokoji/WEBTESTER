@@ -860,13 +860,13 @@ h5{
 @media (orientation: portrait) and (min-width:412px){
 /*412 mobile-apps*/
 #bullets{
-    	transform:translateY(41.5em);
+    	transform:translateY(45em);
 	 }
 }
-@media (orientation: portrait) and (min-width:412px){
+@media (orientation: portrait) and (min-width:414px){
 /*iphone 6plus*/
 #bullets{
-    transform:translateY(38em);
+    transform:translateY(41.5em);
 }
 }
 @media (orientation:portrait) and (min-width:600px){
