@@ -259,16 +259,18 @@ body{
 	width: 400%;
 	line-height: 0;
 	height: 100%;
- }
+}
  #slides .slide{
 	width: 25%;
-    height:100vh;
 	float:left;
 	display: flex;
 	justify-content: center;
 	align-items: center;
     height:100%;
 	color: #fff;
+ }
+ .slide-content{
+     height:100%;
  }
  #slides .slide_1 {
 	background: #00171F;
@@ -418,7 +420,6 @@ body{
     height: 100%;
     text-align: center;
     margin: 0;
-    background-color: #af4545;
 }
 .page-3 {
     position:absolute;
@@ -448,7 +449,6 @@ body{
     margin:15px 5px;
     border:2px solid #ffffff;
     box-shadow:0px 0px 1px #ffffff;
-    background-color: aqua;
 }
 .doc-1:hover{
     box-shadow:0px 0px 15px #ffffff;
@@ -489,8 +489,7 @@ body{
     flex-direction:column;
     justify-content:space-evenly;
     align-items: center;
-    /*background-color:rgba(0, 0, 0, 0.8);*/
-    background-color:green;
+    background-color:rgba(0, 0, 0, 0.8);
 }
 .e1, .e2, .e3, .x1, .x2, .x3, .d1, .d2, .d3{
     text-align:center;
@@ -800,7 +799,7 @@ h5{
     font-size:0.75em;
 }
 #bullets {
-    transform:translateY(30em);
+    transform:translateY(31em);
  }
  #bullets label {
     width: 12px;
@@ -825,7 +824,7 @@ h5{
 		font-size:0.90em;
 	}
 	#bullets {
-		transform:translateY(35em);
+		transform:translateY(36.5em);
 	 }
 	 #bullets label {
 		width: 13px;
