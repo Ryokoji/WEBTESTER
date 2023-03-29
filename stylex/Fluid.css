@@ -849,10 +849,10 @@ h5{
         height:4em;
     }
     #bullets {
-        transform:translateY(42em);
+        transform:translateY(10em);
         -o-transform:translateY(40em);
-        -ms-transform:translateY(40em);  
-        -Moz-transform:translateY(45em);
+        -ms-transform:translateY(50em);  
+        -Moz-transform:translateY(20em);
         -Webkit-transform:translateY(38em);   
     }
      #bullets label {
