@@ -25,7 +25,7 @@ body{
     height:100%;
 }
 .wrapper {
-    background-color: #2eff7b;
+    background-color: #0d0d0d;
     padding: 0;
     margin: 0;
     border:none;
@@ -584,7 +584,7 @@ h5{
 }
 
 /*PORTRAIT*/
-@media (orientation: portrait) and (min-width:315px){
+@media (orientation: portrait) and (min-width:300px){
     /*nav*/
     .nav{
         display:none;
@@ -1177,9 +1177,8 @@ height: 3px;
 .e2{
     width:80%;
 }
-
 #bullets {
-    transform:translateY(20.5em);
+    transform:translateY(20em);
  }
  #bullets label {
     width: 25px;
